@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "first-name": "James",
+      "last-name": "Jameson",
+      "gender": "male",
+      "interests": "Reading",
+      "fav-foods": "Pizza",
+      "id": 2
+    },
+    {
+      "first-name": "Marcus",
+      "last-name": "Perry",
+      "gender": "male",
+      "interests": "VideoGames",
+      "fav-foods": "Pizza",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "first-name": "Kirsty",
+    "last-name": "Reid",
+    "gender": "female",
+    "interests": [
+      "Reading",
+      "VideoGames",
+      "Running"
+    ],
+    "fav-foods": "Chocolate"
+  }
+}

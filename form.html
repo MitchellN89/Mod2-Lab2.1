@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+    <header>
+      <nav>
+        <!-- works like <a href="/index.html">Home</a> -->
+        <a href="index.html">Home</a>
+      </nav>
+    </header>
+    <main>
+      <form action="http://localhost:3000/comments" method="POST">
+        <div>
+          <label for="input-first-name">First Name</label>
+          <input type="text" id="input-first-name" name="first-name" />
+        </div>
+        <div>
+          <label for="input-last-name">Last Name</label>
+          <input type="text" id="input-last-name" name="last-name" />
+        </div>
+
+        <div>
+          <h4>Please select your gender</h4>
+          <label for="radio-gender-male">Male</label>
+          <input
+            type="radio"
+            name="gender"
+            id="radio-gender-male"
+            value="male"
+          />
+          <label for="radio-gender-female">Female</label>
+          <input
+            type="radio"
+            name="gender"
+            id="radio-gender-female"
+            value="female"
+          />
+          <label for="radio-gender-other">Other</label>
+          <input
+            type="radio"
+            name="gender"
+            id="radio-gender-other"
+            value="other"
+          />
+        </div>
+        <div>
+          <h4>Please select your interests</h4>
+          <label for="check-interests-reading">Reading</label>
+          <input
+            type="checkbox"
+            name="interests"
+            id="check-interests-reading"
+            value="Reading"
+          />
+          <label for="check-interests-videogaming">Video Gaming</label>
+          <input
+            type="checkbox"
+            name="interests"
+            id="check-interests-videogaming"
+            value="VideoGames"
+          />
+          <label for="check-interests-running">Running</label>
+          <input
+            type="checkbox"
+            name="interests"
+            id="check-interests-running"
+            value="Running"
+          />
+        </div>
+        <div>
+          <label for="select-fav-foods">Choose your favourite food</label>
+          <select
+            value="Select a favourite"
+            name="fav-foods"
+            id="select-fav-foods"
+          >
+            <option value="" selected disabled hidden>Pick one</option>
+            <option value="Burgers">Burgers</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Chocolate">Chocolate!!</option>
+          </select>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <footer>Copyright 2021 &copy;</footer>
+  </body>
+</html>

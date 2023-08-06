@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="HTML Practice Document" />
+    <meta name="author" content="Mitchell Nilsson" />
+    <meta name="keywords" content="HTML" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+      }
+      tfoot tr td {
+        border-top: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- works like <a href="/index.html">Home</a> -->
+        <a href="form.html">Forms</a>
+      </nav>
+    </header>
+    <h1>My HTML Learning Journey</h1>
+    <article>
+      <h2>Learning Elements - div, span, p, pre, ul, li, ol, article</h2>
+      <div>avocado</div>
+      <div>kiwi</div>
+      <div>banana</div>
+
+      <span>Green</span><span>Blue</span><span>Red</span>
+
+      <p>p represents paragraph</p>
+      <pre>
+        Text in         a pre element
+        is displayed in a fixed-width
+        font, and it preserves
+        both      spaces and
+        line breaks
+        </pre
+      >
+
+      <h3>My Fav Fruit</h3>
+
+      <ul>
+        <li>Mandarins</li>
+        <li>Oranges</li>
+        <li>Blueberries</li>
+      </ul>
+
+      <h3>My Fav TV Shows</h3>
+      <ol>
+        <li>The Office US</li>
+        <li>Community</li>
+        <li>Rick & Morty</li>
+        <li>What We Do In The Shadows</li>
+        <li>&lpar;Can't think of this one!&rpar;</li>
+      </ol>
+    </article>
+
+    <article>
+      <h2>Tables! - Customer Database</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>Contact Name</th>
+            <th>Phone Number</th>
+            <th>Email Address</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2">The Steelworks Engineering</td>
+            <td>Mitchell Nilsson</td>
+            <td>021 111 111 11</td>
+            <td>myemail@gmail.com</td>
+          </tr>
+          <tr>
+            <td>David Holt</td>
+            <td>027 027 027 027</td>
+            <td>davidsemail@thesteelworks.co.nz</td>
+          </tr>
+          <tr>
+            <td>Powerhouse Marketing Agency</td>
+            <td>Kirsty Reid</td>
+            <td>021 123 123</td>
+            <td>kirsty@powerhouse.nz</td>
+          </tr>
+          <tr>
+            <td>Willow Cafe Albany</td>
+            <td>Jane Doe</td>
+            <td>09 444 4446</td>
+            <td>jane@willow.com</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4"><i>All data above is mock only</i></td>
+          </tr>
+        </tfoot>
+      </table>
+    </article>
+    <img src="https://picsum.photos/200/300" alt="" srcset="" />
+    <video autoplay loop muted height="400">
+      <source src="video/vid.mp4" type="video/mp4" />
+      Sorry, your browser doesn't support embedded videos.
+    </video>
+
+    <audio autoplay src="audio/Sofaraway.m4a">
+      Sorry, your browser doesn't support the file.
+      <code>audio</code>
+    </audio>
+  </body>
+</html>
